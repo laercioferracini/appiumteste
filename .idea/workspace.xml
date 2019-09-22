@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b346c2b-3531-4414-9d18-bc6c285a3771" name="Default Changelist" comment="" />
+    <list default="true" id="7b346c2b-3531-4414-9d18-bc6c285a3771" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/appiumteste.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/steps/treinamento/AppiumTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/steps/treinamento/AppiumTeste.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -17,10 +39,11 @@
   </component>
   <component name="ProjectId" id="1Qbqt2Z6s6F5bgQl87fbKE5hBbq" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,7 +57,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppiumTeste">
+  <component name="RunManager" selected="Application.ExemploStream">
+    <configuration name="ExemploStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExemploStream" />
+      <module name="appiumteste" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppiumTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appiumteste" />
       <extension name="coverage">
@@ -68,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemploStream" />
         <item itemvalue="JUnit.AppiumTeste" />
         <item itemvalue="JUnit.AppiumTeste.SimpleTest" />
       </list>
@@ -86,12 +117,25 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
