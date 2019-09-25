@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b346c2b-3531-4414-9d18-bc6c285a3771" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/appiumteste.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7b346c2b-3531-4414-9d18-bc6c285a3771" name="Default Changelist" comment="NEW: DateUtils verifica próximo dia útil">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DateUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/steps/treinamento/AppiumTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/steps/treinamento/AppiumTeste.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +33,7 @@
   <component name="ProjectId" id="1Qbqt2Z6s6F5bgQl87fbKE5hBbq" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,7 +51,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExemploStream">
+  <component name="RunManager" selected="Application.DateUtils">
+    <configuration name="DateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DateUtils" />
+      <module name="appiumteste" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExemploStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExemploStream" />
       <module name="appiumteste" />
@@ -98,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateUtils" />
         <item itemvalue="Application.ExemploStream" />
         <item itemvalue="JUnit.AppiumTeste" />
         <item itemvalue="JUnit.AppiumTeste.SimpleTest" />
@@ -115,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568049855220</updated>
     </task>
+    <task id="LOCAL-00001" summary="NEW: EXEMPLO PARA GRAVAR OBJETO SERIALIADO">
+      <created>1569190579972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569190579972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +140,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NEW: EXEMPLO PARA GRAVAR OBJETO SERIALIADO" />
+    <MESSAGE value="NEW: DateUtils verifica próximo dia útil" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW: DateUtils verifica próximo dia útil" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -137,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/steps/treinamento/AppiumTeste.java</url>
           <line>40</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
